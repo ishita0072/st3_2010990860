@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Weight</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scipt.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@350&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="head" id="planHead">
+            <h1>Solar Weight</h1>
+        </div>
+        <div class="images" id="planet_left">
+            <div class="row">
+            <a class="img" onclick="planetWeight(1)"> <img src="Images/mercury.jpg" > <h3>Mercury</h3></a>
+            <a class="img" onclick="planetWeight(2)"> <img src="Images//venus.jpg"> <h3>Venus</h3></a>
+            <a class="img" onclick="planetWeight(3)"> <img src="Images/earth.jpg" > <h3>Earth</h3></a>
+            <a class="img" onclick="planetWeight(4)"> <img src="Images/mars.jpg">  <h3>Mars</h3></a>
+            </div>
+            <div class="row">
+            <a class="img" onclick="planetWeight(5)"> <img src="Images/jupiter.jpg" > <h3>Jupiter</h3></a>
+            <a class="img" onclick="planetWeight(6)"> <img src="Images/sartun.jpg" > <h3>Saturn</h3></a>
+            <a class="img" onclick="planetWeight(7)"> <img src="Images/neptune.jpg" > <h3>Neptune</h3></a>
+            <a class="img" onclick="planetWeight(8)"> <img src="Images/uranus.jpg" > <h3>Uranus</h3></a>
+            </div>
+        </div>
+        <div class="form" id="planet_right">
+            <div class="inputw" id="winput">
+                <h2>Enter Weight</h2>
+                <input name="numbers" id="numbers" placeholder="Enter Your Weight in Kg's" data-required="true" style="width:80%; height:50px; font-size:25px;">
+            </div>
+            <div class="display" id="display">
+                <p id="p1"></p>
+                <p id="p2"></p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
